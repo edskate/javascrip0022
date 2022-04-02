@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+              <meta charset="UTF-8">
+              <meta http-equiv="X-UA-Compatible" content="IE=edge">
+              <meta name="viewport" content="width=device-width, initial-scale=1.0">
+              <title>Document</title>
+</head>
+<body>
+<h1>Criando Excercicios:</h1>
+<h2>Obtendo um repositório Git</h2>
+<p>Você normalment obtém um repositório Git de duas maneiras:</p>
+<li>.Você pode pegar um diretório local que atualmente não está sob controle de versão e trnsformalo em um repositório  Git, ou</li>
+
+<p><li>.Você pode clonar um repositório Git existente de outro lugar.</li></p>
+
+<p>Em ambos os casos, você acaba com um repositório Git em sua máquina local, pronto para trabalho. </p>
+
+<h2>Inicializando um repositório em um diretório existente:</h2>
+
+<p>Se você tem um diretório de projeto que atualmente não está sob controle de versão e  deseja começar a controlá-lo com Git, promeiro você precisa ir ao diretório desse projeto. <br>
+Se você nunca fez isso, parece um pouco deferente dependendo de qual sistema você está executando:  </p>
+<h2>Para Windows:</h2>
+<li>$ git init</li>
+<button>Isso cria um novo subdiretório chamado .git que contém todos os seus arquivos de repositório - necessários- um esqueleto de repositório Git. Neste ponto, nada em seu projeto é rastreado ainda. 
+              <br> Consulte Git Internals para obter mais informações sobre exatamente quais arquivos estão contidos no .  gitdiretório que você acaboe de criar.
+</button> <br>
+<button>Se você  deseja iniciar o controle de versão dos arquivos existentes (em oposição a um diretório vazio), você provavelmente deve começar a rastrear esses arquivos e fazer um commit inicial. <br> Você pode fazer isso com alguns git add comandos que especificam os arquivos que você deseja rastrear, seguidos por um git commit: <button>
+             
+                            <button>
+                            $ git add *.c
+                            $ git add LICENSE
+                            $ git commit -m 'Initial project version'
+                            </button>
+                            <button>Veremos o que esses comandos fazem em apenas um minuto.Neste ponto,você tem um repositório Git com arquivos rastreados e um commit inicial.</button>
+           
+</body>
+</html>
